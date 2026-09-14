@@ -1,0 +1,972 @@
+{
+  "settings": {
+    "name": "H1 Pattaya",
+    "tagline": "ศูนย์บริการซ่อมบำรุงรถยนต์ครบวงจร มาตรฐานมืออาชีพ เครื่องมือทันสมัย อะไหล่แท้ 100%",
+    "address": "88/19 ถนนกาญจนาภิเษก แขวงบางแค เขตบางแค กรุงเทพมหานคร 10160",
+    "phone": "02-899-4455, 089-123-4567",
+    "email": "contact@siamautoservice.co.th",
+    "lineId": "@siamauto",
+    "taxId": "0105562098765",
+    "branch": "สำนักงานใหญ่",
+    "bankName": "ธนาคารกสิกรไทย (KBANK)",
+    "bankAccountNo": "045-8-99214-3",
+    "bankAccountName": "บจก. สยาม ออโต้ เซอร์วิส",
+    "promptPayId": "0105562098765",
+    "logoUrl": "",
+    "googleSpreadsheetId": "1aCBA46NIV1ZxGUv_sCBvciWgZ3wZmnF_U9UHu0rtk1w"
+  },
+  "customers": [
+    {
+      "id": "CUS-001",
+      "name": "คุณสมชาย วรเศรษฐ์",
+      "phone": "081-456-7890",
+      "address": "124/5 หมู่บ้านชัยพฤกษ์ ถ.เพชรเกษม แขวงหนองค้างพลู เขตหนองแขม กทม. 10160",
+      "taxId": "3100501234567",
+      "notes": "ลูกค้าประจำ ชอบเช็กช่วงล่างและน้ำมันเครื่องสังเคราะห์แท้",
+      "createdAt": "2026-08-10T09:00:00.000Z",
+      "updatedAt": "2026-09-01T10:00:00.000Z"
+    },
+    {
+      "id": "CUS-002",
+      "name": "คุณนภาพร เกียรติสกุล",
+      "phone": "089-987-6543",
+      "address": "55/12 อาคารลุมพินีทาวเวอร์ ถ.สาทรใต้ แขวงทุ่งมหาเมฆ เขตสาทร กทม. 10120",
+      "notes": "ติดต่อทาง Line ได้สะดวกกว่า",
+      "createdAt": "2026-08-15T14:30:00.000Z",
+      "updatedAt": "2026-09-05T11:00:00.000Z"
+    },
+    {
+      "id": "CUS-003",
+      "name": "คุณธีรพงศ์ อัครเดชานันท์",
+      "phone": "086-333-2211",
+      "address": "9/88 ซอยอารีย์สัมพันธ์ ถ.พหลโยธิน แขวงสามเสนใน เขตพญาไท กทม. 10400",
+      "notes": "รถใช้งานขนส่ง วิ่งระยะไกล ต้องตรวจเช็กเบรกและยางสม่ำเสมอ",
+      "createdAt": "2026-08-20T11:20:00.000Z",
+      "updatedAt": "2026-09-10T16:00:00.000Z"
+    },
+    {
+      "id": "CUS-004",
+      "name": "คุณพิมลรัตน์ จินตนาการ",
+      "phone": "092-777-8899",
+      "address": "77/3 ต.บางกระสอ อ.เมืองนนทบุรี จ.นนทบุรี 11000",
+      "notes": "ให้โทรแจ้งก่อนทำรายการซ่อมทุกครั้ง",
+      "createdAt": "2026-09-02T10:00:00.000Z",
+      "updatedAt": "2026-09-08T09:00:00.000Z"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "VEH-001",
+      "customerId": "CUS-001",
+      "licensePlate": "1กข 8920 กรุงเทพมหานคร",
+      "brand": "Toyota",
+      "model": "Hilux Revo Double Cab 2.4 Prerunner",
+      "year": 2021,
+      "color": "ขาวมุก",
+      "vin": "MR0BA3CD200189201",
+      "currentMileage": 68500,
+      "fuelType": "ดีเซล",
+      "photos": [
+        "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=600&q=80"
+      ],
+      "notes": "ติดกันชนเหล็กเสริมด้านหลัง ยาง All-Terrain เพิ่งเปลี่ยนปีที่แล้ว",
+      "createdAt": "2026-08-10T09:10:00.000Z"
+    },
+    {
+      "id": "VEH-002",
+      "customerId": "CUS-001",
+      "licensePlate": "5ขจ 4118 กรุงเทพมหานคร",
+      "brand": "Honda",
+      "model": "City Hatchback e:HEV RS",
+      "year": 2023,
+      "color": "แดงอิกไนต์",
+      "vin": "MRHGN1890PT041180",
+      "currentMileage": 28400,
+      "fuelType": "ไฮบริด",
+      "photos": [
+        "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=600&q=80"
+      ],
+      "notes": "รถภรรยา ขับไปทำงานในเมืองเป็นหลัก",
+      "createdAt": "2026-08-18T13:00:00.000Z"
+    },
+    {
+      "id": "VEH-003",
+      "customerId": "CUS-002",
+      "licensePlate": "กฉ 9932 นนทบุรี",
+      "brand": "Mazda",
+      "model": "CX-5 2.0 SP",
+      "year": 2020,
+      "color": "เทา แมชชีน เกรย์",
+      "vin": "JM7KF2W7A00099324",
+      "currentMileage": 84200,
+      "fuelType": "เบนซิน",
+      "photos": [
+        "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80"
+      ],
+      "notes": "เข้าศูนย์ตามระยะสม่ำเสมอ ฟิล์มเซรามิก",
+      "createdAt": "2026-08-15T14:40:00.000Z"
+    },
+    {
+      "id": "VEH-004",
+      "customerId": "CUS-003",
+      "licensePlate": "3ฒภ 7012 กรุงเทพมหานคร",
+      "brand": "Isuzu",
+      "model": "D-Max Spark 1.9 Ddi Blue Power",
+      "year": 2022,
+      "color": "บรอนซ์เงิน",
+      "vin": "MP1TFR87JNT070125",
+      "currentMileage": 112000,
+      "fuelType": "ดีเซล",
+      "photos": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80"
+      ],
+      "notes": "ติดตั้งตู้ทึบอลูมิเนียม เสริมแหนบหลัง 4 แผ่น",
+      "createdAt": "2026-08-20T11:30:00.000Z"
+    },
+    {
+      "id": "VEH-005",
+      "customerId": "CUS-004",
+      "licensePlate": "2ขย 3840 กรุงเทพมหานคร",
+      "brand": "BYD",
+      "model": "Atto 3 Extended Range",
+      "year": 2023,
+      "color": "ฟ้า Surf Blue",
+      "vin": "LC0BYD1234AT38409",
+      "currentMileage": 34500,
+      "fuelType": "ไฟฟ้า (EV)",
+      "photos": [
+        "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80"
+      ],
+      "notes": "ตรวจระบบช่วงล่าง ผ้าเบรก และสลับยาง",
+      "createdAt": "2026-09-02T10:15:00.000Z"
+    }
+  ],
+  "parts": [
+    {
+      "id": "PRT-001",
+      "code": "OIL-SYN-5W30-4L",
+      "name": "น้ำมันเครื่องสังเคราะห์แท้ Castrol EDGE 5W-30 (4 ลิตร)",
+      "category": "น้ำมันเครื่องและของเหลว",
+      "brand": "Castrol",
+      "compatibleModels": "เบนซิน/ดีเซล คอมมอนเรล ทุกรุ่น",
+      "supplier": "บจก. ซีพีซี ลูบริแคนท์ส",
+      "costPrice": 1100,
+      "sellingPrice": 1650,
+      "quantity": 18,
+      "minQuantity": 5,
+      "location": "ชั้น A-01",
+      "unit": "แกลลอน",
+      "updatedAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "PRT-002",
+      "code": "FLT-OIL-TY01",
+      "name": "กรองน้ำมันเครื่อง Toyota Revo/Vigo/Fortuner แท้",
+      "category": "ไส้กรอง",
+      "brand": "Toyota Genuine",
+      "compatibleModels": "Hilux Vigo, Revo, Fortuner, Innova",
+      "supplier": "บจก. ธนบุรี พาร์ท เซ็นเตอร์",
+      "costPrice": 160,
+      "sellingPrice": 280,
+      "quantity": 24,
+      "minQuantity": 8,
+      "location": "ชั้น B-02",
+      "unit": "ลูก",
+      "updatedAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "PRT-003",
+      "code": "BRK-FRT-BM01",
+      "name": "ผ้าเบรกหน้า Brembo Ceramic สำหรับ Toyota Revo / Fortuner",
+      "category": "ระบบเบรก",
+      "brand": "Brembo",
+      "compatibleModels": "Toyota Revo 4WD/Prerunner, Fortuner 2015-ปัจจุบัน",
+      "supplier": "บจก. สยามเบรก แอนด์ พาร์ท",
+      "costPrice": 1450,
+      "sellingPrice": 2200,
+      "quantity": 6,
+      "minQuantity": 4,
+      "location": "ชั้น C-01",
+      "unit": "ชุด",
+      "updatedAt": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "id": "PRT-004",
+      "code": "FLT-AIR-HD02",
+      "name": "กรองอากาศเครื่องยนต์ Honda City 1.0 Turbo / e:HEV",
+      "category": "ไส้กรอง",
+      "brand": "Denso",
+      "compatibleModels": "Honda City GN 2020-2024 Hatchback/Sedan",
+      "supplier": "บจก. ออโต้สเปเชียลตี้ แอนด์ พาร์ท",
+      "costPrice": 220,
+      "sellingPrice": 380,
+      "quantity": 12,
+      "minQuantity": 5,
+      "location": "ชั้น B-04",
+      "unit": "ชิ้น",
+      "updatedAt": "2026-09-03T11:00:00.000Z"
+    },
+    {
+      "id": "PRT-005",
+      "code": "BAT-GS-65D26L",
+      "name": "แบตเตอรี่ GS MFX-80L (กึ่งแห้ง Maintenance Free 65 แอมป์)",
+      "category": "ระบบไฟและแบตเตอรี่",
+      "brand": "GS Battery",
+      "compatibleModels": "Mazda CX-5, Camry, Accord, CR-V",
+      "supplier": "หจก. พลัส แบตเตอรี่ เซลส์",
+      "costPrice": 2150,
+      "sellingPrice": 3100,
+      "quantity": 1,
+      "minQuantity": 3,
+      "location": "โซนแบตเตอรี่ E-01",
+      "unit": "ลูก",
+      "updatedAt": "2026-09-12T14:05:36.227Z"
+    },
+    {
+      "id": "PRT-006",
+      "code": "BRK-DOT4-1L",
+      "name": "น้ำมันเบรก ATE DOT4 SL.6 (1 ลิตร)",
+      "category": "น้ำมันเครื่องและของเหลว",
+      "brand": "ATE",
+      "compatibleModels": "รถยนต์ทุกรุ่น รองรับระบบ ABS/ESP",
+      "supplier": "บจก. สยามเบรก แอนด์ พาร์ท",
+      "costPrice": 260,
+      "sellingPrice": 420,
+      "quantity": 15,
+      "minQuantity": 5,
+      "location": "ชั้น A-03",
+      "unit": "กระป๋อง",
+      "updatedAt": "2026-09-05T14:00:00.000Z"
+    },
+    {
+      "id": "PRT-007",
+      "code": "SPK-NGK-IRID",
+      "name": "หัวเทียน NGK Iridium Laser ILZKR7B-11 (ชุด 4 หัว)",
+      "category": "ชิ้นส่วนเครื่องยนต์",
+      "brand": "NGK",
+      "compatibleModels": "Honda Civic, City, CR-V, Mazda 2 Skyactiv",
+      "supplier": "บจก. ธนบุรี พาร์ท เซ็นเตอร์",
+      "costPrice": 1180,
+      "sellingPrice": 1750,
+      "quantity": 3,
+      "minQuantity": 4,
+      "location": "ชั้น D-02",
+      "unit": "ชุด",
+      "updatedAt": "2026-09-06T15:00:00.000Z"
+    },
+    {
+      "id": "PRT-008",
+      "code": "CLT-TY-SUPER4L",
+      "name": "น้ำยาหล่อเย็นหม้อน้ำ Toyota Super Long Life Coolant Pre-mixed (4 ลิตร)",
+      "category": "น้ำมันเครื่องและของเหลว",
+      "brand": "Toyota Genuine",
+      "compatibleModels": "Toyota ทุกรุ่น",
+      "supplier": "บจก. ธนบุรี พาร์ท เซ็นเตอร์",
+      "costPrice": 390,
+      "sellingPrice": 580,
+      "quantity": 10,
+      "minQuantity": 4,
+      "location": "ชั้น A-02",
+      "unit": "แกลลอน",
+      "updatedAt": "2026-09-07T12:00:00.000Z"
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "MOV-005",
+      "partId": "PRT-005",
+      "partName": "แบตเตอรี่ GS MFX-80L (กึ่งแห้ง Maintenance Free 65 แอมป์)",
+      "type": "out",
+      "quantity": 1,
+      "previousQuantity": 2,
+      "newQuantity": 1,
+      "referenceType": "job_order",
+      "referenceId": "JOB-202609-002",
+      "notes": "ตัดสต็อกอัตโนมัติจากใบงาน JOB-202609-002",
+      "date": "2026-09-12T14:05:36.227Z"
+    },
+    {
+      "id": "MOV-001",
+      "partId": "PRT-001",
+      "partName": "น้ำมันเครื่องสังเคราะห์แท้ Castrol EDGE 5W-30 (4 ลิตร)",
+      "type": "in",
+      "quantity": 20,
+      "previousQuantity": 0,
+      "newQuantity": 20,
+      "referenceType": "supplier_po",
+      "referenceId": "PO-202609-01",
+      "notes": "รับสินค้าเข้าสต็อกจาก บจก. ซีพีซี ลูบริแคนท์ส",
+      "date": "2026-09-01T08:30:00.000Z"
+    },
+    {
+      "id": "MOV-002",
+      "partId": "PRT-001",
+      "partName": "น้ำมันเครื่องสังเคราะห์แท้ Castrol EDGE 5W-30 (4 ลิตร)",
+      "type": "out",
+      "quantity": 2,
+      "previousQuantity": 20,
+      "newQuantity": 18,
+      "referenceType": "job_order",
+      "referenceId": "JOB-202609-001",
+      "notes": "เบิกใช้สำหรับงานซ่อม JOB-202609-001 (Hilux Revo)",
+      "date": "2026-09-11T10:00:00.000Z"
+    },
+    {
+      "id": "MOV-003",
+      "partId": "PRT-005",
+      "partName": "แบตเตอรี่ GS MFX-80L (กึ่งแห้ง 65 แอมป์)",
+      "type": "in",
+      "quantity": 5,
+      "previousQuantity": 0,
+      "newQuantity": 5,
+      "referenceType": "supplier_po",
+      "referenceId": "PO-202609-02",
+      "notes": "สั่งซื้อล็อตประจำเดือน",
+      "date": "2026-09-02T11:00:00.000Z"
+    },
+    {
+      "id": "MOV-004",
+      "partId": "PRT-005",
+      "partName": "แบตเตอรี่ GS MFX-80L (กึ่งแห้ง 65 แอมป์)",
+      "type": "out",
+      "quantity": 3,
+      "previousQuantity": 5,
+      "newQuantity": 2,
+      "referenceType": "job_order",
+      "referenceId": "JOB-202608-040",
+      "notes": "เปลี่ยนให้ลูกค้าหน้าร้าน 3 คัน",
+      "date": "2026-09-08T09:30:00.000Z"
+    }
+  ],
+  "jobOrders": [
+    {
+      "customerId": "CUS-001",
+      "vehicleId": "VEH-001",
+      "receivedDate": "2026-09-12T14:07:36.634Z",
+      "estimatedDeliveryDate": "2026-09-14T07:06:00.000Z",
+      "mileageAtIntake": 68500,
+      "symptoms": "เปลี่ยนน้ำมันเครื่อง",
+      "inspectionItems": [
+        {
+          "id": "1",
+          "name": "ระบบไฟส่องสว่างหน้า-ท้าย-ไฟเลี้ยว",
+          "checked": true,
+          "note": ""
+        },
+        {
+          "id": "2",
+          "name": "สภาพยาง ดอกยาง และแรงดันลมยาง",
+          "checked": true,
+          "note": ""
+        },
+        {
+          "id": "3",
+          "name": "ระบบเบรกและผ้าเบรก",
+          "checked": true,
+          "note": ""
+        },
+        {
+          "id": "4",
+          "name": "ระดับน้ำมันเครื่องและของเหลว",
+          "checked": true,
+          "note": ""
+        },
+        {
+          "id": "5",
+          "name": "ระบบปรับอากาศ / แอร์และความเย็น",
+          "checked": true,
+          "note": ""
+        },
+        {
+          "id": "6",
+          "name": "สภาพแบตเตอรี่ แรงดันไฟ",
+          "checked": true,
+          "note": ""
+        },
+        {
+          "id": "7",
+          "name": "ตรวจรอยขีดข่วนและตัวถังภายนอก",
+          "checked": true,
+          "note": ""
+        }
+      ],
+      "fuelLevel": "1/2",
+      "exteriorConditionNotes": "สภาพปกติ ไม่มีรอยขีดข่วนรุนแรง",
+      "photosBeforeRepair": [
+        "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=600&q=80"
+      ],
+      "notes": "",
+      "status": "รอตรวจสอบ",
+      "stockDeducted": false,
+      "technician": "ช่างเอกชัย (หัวหน้าช่าง)",
+      "id": "JOB-202609-005",
+      "createdAt": "2026-09-12T14:07:36.634Z",
+      "updatedAt": "2026-09-12T14:07:36.634Z"
+    },
+    {
+      "id": "JOB-202609-001",
+      "customerId": "CUS-001",
+      "vehicleId": "VEH-001",
+      "receivedDate": "2026-09-11T09:30:00.000Z",
+      "estimatedDeliveryDate": "2026-09-12T17:00:00.000Z",
+      "mileageAtIntake": 68500,
+      "symptoms": "มีเสียงดังเอี๊ยดเวลาเหยียบเบรก เบรกสั่นเล็กน้อยตอนขับเร็ว ต้องการเช็กระยะ 70,000 กม. เปลี่ยนถ่ายน้ำมันเครื่อง",
+      "inspectionItems": [
+        {
+          "id": "1",
+          "name": "ระบบไฟส่องสว่างหน้า-ท้าย",
+          "checked": true,
+          "note": "ไฟส่องป้ายทะเบียนขาด 1 ดวง"
+        },
+        {
+          "id": "2",
+          "name": "สภาพยางและแรงดันลมยาง",
+          "checked": true,
+          "note": "ดอกยางเหลือ 5.2 มม. ลมยาง 35 psi"
+        },
+        {
+          "id": "3",
+          "name": "ระบบเบรก/ผ้าเบรก",
+          "checked": false,
+          "note": "ผ้าเบรกหน้าสึกเหลือประมาณ 2.5 มม. จานเบรกเป็นร่องบางส่วน"
+        },
+        {
+          "id": "4",
+          "name": "ระดับน้ำมันเครื่องและของเหลว",
+          "checked": true,
+          "note": "น้ำมันเครื่องดำ ควรเปลี่ยน"
+        },
+        {
+          "id": "5",
+          "name": "ระบบปรับอากาศ / ไส้กรองแอร์",
+          "checked": true,
+          "note": "ความเย็น 6 องศา ปกติ"
+        },
+        {
+          "id": "6",
+          "name": "ตรวจรอยขูดขีดรอบตัวถัง",
+          "checked": true,
+          "note": "มีรอยสะเก็ดหินเล็กน้อยที่กันชนหน้า"
+        },
+        {
+          "id": "7",
+          "name": "สภาพแบตเตอรี่และขั้วไฟ",
+          "checked": true,
+          "note": "แรงดัน 12.6V สุขภาพแบต 85%"
+        }
+      ],
+      "fuelLevel": "3/4",
+      "exteriorConditionNotes": "มีรอยขีดข่วนเล็กน้อยบริเวณซุ้มล้อหลังขวา คิ้วกันชนหน้ามีรอยหินดีด 2 จุด",
+      "photosBeforeRepair": [
+        "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=600&q=80"
+      ],
+      "notes": "ลูกค้านั่งรอที่ร้านช่วงเช้า แล้วฝากรถไว้ นัดรับช่วงเย็น",
+      "status": "ส่งมอบแล้ว",
+      "quotationId": "QT-202609-001",
+      "invoiceId": "INV-202609-001",
+      "stockDeducted": true,
+      "technician": "ช่างเอกชัย (หัวหน้าช่างเครื่องยนต์)",
+      "createdAt": "2026-09-11T09:35:00.000Z",
+      "updatedAt": "2026-09-12T13:47:17.737Z",
+      "actualDeliveryDate": "2026-09-12T13:47:17.737Z"
+    },
+    {
+      "id": "JOB-202609-002",
+      "customerId": "CUS-002",
+      "vehicleId": "VEH-003",
+      "receivedDate": "2026-09-11T13:00:00.000Z",
+      "estimatedDeliveryDate": "2026-09-13T12:00:00.000Z",
+      "mileageAtIntake": 84200,
+      "symptoms": "สตาร์ทติดยากช่วงเช้า ไฟเตือนรูปแบตเตอรี่กระพริบ และแอร์มีกลิ่นอับ",
+      "inspectionItems": [
+        {
+          "id": "1",
+          "name": "ระบบไฟส่องสว่างหน้า-ท้าย",
+          "checked": true,
+          "note": "ปกติ"
+        },
+        {
+          "id": "2",
+          "name": "สภาพยางและแรงดันลมยาง",
+          "checked": true,
+          "note": "ปกติ"
+        },
+        {
+          "id": "3",
+          "name": "ระบบเบรก/ผ้าเบรก",
+          "checked": true,
+          "note": "ผ้าเบรกเหลือ 6 มม."
+        },
+        {
+          "id": "4",
+          "name": "ระดับน้ำมันเครื่องและของเหลว",
+          "checked": true,
+          "note": "ปกติ"
+        },
+        {
+          "id": "5",
+          "name": "ระบบปรับอากาศ / ไส้กรองแอร์",
+          "checked": false,
+          "note": "กรองแอร์ฝุ่นหนามาก ควรเปลี่ยน"
+        },
+        {
+          "id": "6",
+          "name": "ตรวจรอยขูดขีดรอบตัวถัง",
+          "checked": true,
+          "note": "ไม่มีรอยใหม่"
+        },
+        {
+          "id": "7",
+          "name": "สภาพแบตเตอรี่และขั้วไฟ",
+          "checked": false,
+          "note": "แบตเตอรี่เก็บไฟไม่อยู่ CCA ต่ำ แนะนำเปลี่ยน"
+        }
+      ],
+      "fuelLevel": "1/2",
+      "exteriorConditionNotes": "สภาพตัวถังเรียบร้อย สะอาด ไม่มีรอยขีดข่วนรุนแรง",
+      "photosBeforeRepair": [
+        "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80"
+      ],
+      "notes": "ส่งใบเสนอราคาให้ลูกค้าพิจารณาทาง Line รอคอนเฟิร์ม",
+      "status": "รอลูกค้ารับรถ",
+      "quotationId": "QT-202609-002",
+      "stockDeducted": true,
+      "technician": "ช่างวิทย์ (ช่างระบบไฟและอิเล็กทรอนิกส์)",
+      "createdAt": "2026-09-11T13:15:00.000Z",
+      "updatedAt": "2026-09-11T14:30:00.000Z",
+      "invoiceId": "INV-202609-003",
+      "receiptId": "REC-202609-002"
+    },
+    {
+      "id": "JOB-202609-003",
+      "customerId": "CUS-003",
+      "vehicleId": "VEH-004",
+      "receivedDate": "2026-09-12T08:00:00.000Z",
+      "estimatedDeliveryDate": "2026-09-14T17:00:00.000Z",
+      "mileageAtIntake": 112000,
+      "symptoms": "ช่วงล่างหลังมีเสียงดังเอี๊ยดอ๊าดตอนบรรทุกหนัก คลัตช์เริ่มลื่นเวลาเร่งแซง",
+      "inspectionItems": [
+        {
+          "id": "1",
+          "name": "ระบบไฟส่องสว่างหน้า-ท้าย",
+          "checked": true,
+          "note": "ปกติ"
+        },
+        {
+          "id": "2",
+          "name": "สภาพยางและแรงดันลมยาง",
+          "checked": true,
+          "note": "ลมยางหลัง 50 psi สำหรับบรรทุก"
+        },
+        {
+          "id": "3",
+          "name": "ระบบเบรก/ผ้าเบรก",
+          "checked": true,
+          "note": "ปกติ"
+        },
+        {
+          "id": "4",
+          "name": "ระบบส่งกำลัง / คลัตช์",
+          "checked": false,
+          "note": "ผ้าคลัตช์ใกล้หมด จานกดคลัตช์มีรอยไหม้"
+        },
+        {
+          "id": "5",
+          "name": "ช่วงล่างและแหนบ",
+          "checked": false,
+          "note": "บูชหูแหนบแตก รอสั่งชุดบูชและลูกหมาก"
+        }
+      ],
+      "fuelLevel": "1/4",
+      "exteriorConditionNotes": "กระบะท้ายมีรอยบุบเล็กน้อยด้านข้างซ้าย คิ้วซุ้มล้อมีรอยสะเก็ดหินจากการบรรทุก",
+      "photosBeforeRepair": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80"
+      ],
+      "notes": "สั่งชุดคลัตช์แท้ Isuzu และบูชยูรีเทน รออะไหล่ส่งถึงบ่ายนี้",
+      "status": "รออะไหล่",
+      "stockDeducted": false,
+      "technician": "ช่างสมหมาย (ช่างระบบส่งกำลังและช่วงล่าง)",
+      "createdAt": "2026-09-12T08:20:00.000Z",
+      "updatedAt": "2026-09-12T09:10:00.000Z"
+    },
+    {
+      "id": "JOB-202609-004",
+      "customerId": "CUS-004",
+      "vehicleId": "VEH-005",
+      "receivedDate": "2026-09-10T10:00:00.000Z",
+      "estimatedDeliveryDate": "2026-09-11T16:00:00.000Z",
+      "actualDeliveryDate": "2026-09-11T16:45:00.000Z",
+      "mileageAtIntake": 34500,
+      "symptoms": "สลับยาง ถ่วงล้อ ตั้งศูนย์ และตรวจเช็กผ้าเบรก ทำความสะอาดระบบระบายความร้อนแบตเตอรี่",
+      "inspectionItems": [
+        {
+          "id": "1",
+          "name": "สลับยาง 4 ล้อ + ถ่วงล้อ",
+          "checked": true,
+          "note": "เสร็จเรียบร้อย"
+        },
+        {
+          "id": "2",
+          "name": "ตั้งศูนย์ล้อคอมพิวเตอร์",
+          "checked": true,
+          "note": "มุมโท/แคมเบอร์ตรงสเปก"
+        },
+        {
+          "id": "3",
+          "name": "ตรวจความหนาผ้าเบรก",
+          "checked": true,
+          "note": "หน้า 8.0 มม. หลัง 7.5 มม. สภาพดี"
+        },
+        {
+          "id": "4",
+          "name": "ตรวจระดับน้ำยาหล่อเย็นอินเวอร์เตอร์",
+          "checked": true,
+          "note": "ระดับปกติ สีใส"
+        }
+      ],
+      "fuelLevel": "3/4",
+      "exteriorConditionNotes": "รถสภาพใหม่ ไม่มีริ้วรอย",
+      "photosBeforeRepair": [
+        "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80"
+      ],
+      "notes": "ลูกค้ารับรถเรียบร้อยและชำระเงินผ่าน QR Payment",
+      "status": "ส่งมอบแล้ว",
+      "quotationId": "QT-202609-004",
+      "invoiceId": "INV-202609-004",
+      "receiptId": "REC-202609-001",
+      "stockDeducted": true,
+      "technician": "ช่างเอกชัย",
+      "createdAt": "2026-09-10T10:05:00.000Z",
+      "updatedAt": "2026-09-11T16:45:00.000Z"
+    }
+  ],
+  "quotations": [
+    {
+      "id": "QT-202609-001",
+      "jobOrderId": "JOB-202609-001",
+      "customerId": "CUS-001",
+      "vehicleId": "VEH-001",
+      "date": "2026-09-11T10:00:00.000Z",
+      "validUntil": "2026-09-25T18:00:00.000Z",
+      "items": [
+        {
+          "id": "item-1",
+          "type": "part",
+          "partId": "PRT-001",
+          "name": "น้ำมันเครื่องสังเคราะห์แท้ Castrol EDGE 5W-30 (4 ลิตร)",
+          "quantity": 2,
+          "unit": "แกลลอน",
+          "unitPrice": 1650,
+          "total": 3300
+        },
+        {
+          "id": "item-2",
+          "type": "part",
+          "partId": "PRT-002",
+          "name": "กรองน้ำมันเครื่อง Toyota Revo แท้",
+          "quantity": 1,
+          "unit": "ลูก",
+          "unitPrice": 280,
+          "total": 280
+        },
+        {
+          "id": "item-3",
+          "type": "part",
+          "partId": "PRT-003",
+          "name": "ผ้าเบรกหน้า Brembo Ceramic สำหรับ Toyota Revo",
+          "quantity": 1,
+          "unit": "ชุด",
+          "unitPrice": 2200,
+          "total": 2200
+        },
+        {
+          "id": "item-4",
+          "type": "labor",
+          "name": "ค่าแรงเปลี่ยนถ่ายน้ำมันเครื่องและไส้กรอง",
+          "quantity": 1,
+          "unit": "งาน",
+          "unitPrice": 350,
+          "total": 350
+        },
+        {
+          "id": "item-5",
+          "type": "labor",
+          "name": "ค่าแรงเปลี่ยนผ้าเบรกหน้าและเจียรจานเบรกแบบประชิดล้อ (2 ล้อ)",
+          "quantity": 1,
+          "unit": "งาน",
+          "unitPrice": 900,
+          "total": 900
+        },
+        {
+          "id": "item-6",
+          "type": "other",
+          "name": "น้ำยาทำความสะอาดระบบเบรกและกำจัดคราบเขม่า",
+          "quantity": 1,
+          "unit": "กระป๋อง",
+          "unitPrice": 180,
+          "total": 180
+        }
+      ],
+      "laborTotal": 1250,
+      "partsTotal": 5780,
+      "otherTotal": 180,
+      "subtotal": 7210,
+      "discountType": "fixed",
+      "discountValue": 300,
+      "discountAmount": 300,
+      "vatRate": 7,
+      "vatAmount": 483.7,
+      "grandTotal": 7393.7,
+      "customerApproved": true,
+      "approvedDate": "2026-09-11T10:45:00.000Z",
+      "status": "อนุมัติแล้ว",
+      "notes": "ลูกค้ารับทราบรายการและอนุมัติเปลี่ยนผ้าเบรก Brembo แท้",
+      "createdAt": "2026-09-11T10:00:00.000Z"
+    },
+    {
+      "id": "QT-202609-002",
+      "jobOrderId": "JOB-202609-002",
+      "customerId": "CUS-002",
+      "vehicleId": "VEH-003",
+      "date": "2026-09-11T14:00:00.000Z",
+      "validUntil": "2026-09-25T18:00:00.000Z",
+      "items": [
+        {
+          "id": "item-1",
+          "type": "part",
+          "partId": "PRT-005",
+          "name": "แบตเตอรี่ GS MFX-80L (กึ่งแห้ง 65 แอมป์) ประกัน 1 ปี",
+          "quantity": 1,
+          "unit": "ลูก",
+          "unitPrice": 3100,
+          "total": 3100
+        },
+        {
+          "id": "item-2",
+          "type": "labor",
+          "name": "ค่าบริการตรวจเช็กระบบไฟไดชาร์จและเปลี่ยนแบตเตอรี่",
+          "quantity": 1,
+          "unit": "งาน",
+          "unitPrice": 300,
+          "total": 300
+        },
+        {
+          "id": "item-3",
+          "type": "other",
+          "name": "ส่วนลดเทิร์นแบตเตอรี่ลูกเก่า",
+          "quantity": 1,
+          "unit": "ลูก",
+          "unitPrice": -400,
+          "total": -400
+        }
+      ],
+      "laborTotal": 300,
+      "partsTotal": 3100,
+      "otherTotal": -400,
+      "subtotal": 3000,
+      "discountType": "fixed",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "vatRate": 7,
+      "vatAmount": 210,
+      "grandTotal": 3210,
+      "customerApproved": true,
+      "status": "อนุมัติแล้ว",
+      "notes": "รอการตอบรับจากคุณนภาพรผ่านทาง Line",
+      "createdAt": "2026-09-11T14:00:00.000Z",
+      "approvedDate": "2026-09-12T14:05:36.227Z"
+    },
+    {
+      "id": "QT-202609-004",
+      "jobOrderId": "JOB-202609-004",
+      "customerId": "CUS-004",
+      "vehicleId": "VEH-005",
+      "date": "2026-09-10T11:00:00.000Z",
+      "validUntil": "2026-09-24T18:00:00.000Z",
+      "items": [
+        {
+          "id": "item-1",
+          "type": "labor",
+          "name": "บริการสลับยาง 4 ล้อ + ถ่วงล้อคอมพิวเตอร์",
+          "quantity": 1,
+          "unit": "ชุด",
+          "unitPrice": 600,
+          "total": 600
+        },
+        {
+          "id": "item-2",
+          "type": "labor",
+          "name": "ตั้งศูนย์ล้อระบบดิจิตอล 3D หน้า-หลัง",
+          "quantity": 1,
+          "unit": "คัน",
+          "unitPrice": 500,
+          "total": 500
+        },
+        {
+          "id": "item-3",
+          "type": "other",
+          "name": "เติมลมยางไนโตรเจน 4 ล้อ",
+          "quantity": 1,
+          "unit": "คัน",
+          "unitPrice": 200,
+          "total": 200
+        }
+      ],
+      "laborTotal": 1100,
+      "partsTotal": 0,
+      "otherTotal": 200,
+      "subtotal": 1300,
+      "discountType": "fixed",
+      "discountValue": 100,
+      "discountAmount": 100,
+      "vatRate": 7,
+      "vatAmount": 84,
+      "grandTotal": 1284,
+      "customerApproved": true,
+      "approvedDate": "2026-09-10T11:30:00.000Z",
+      "status": "อนุมัติแล้ว",
+      "notes": "ส่วนลดโปรโมชั่นลูกค้าใหม่ 100 บาท",
+      "createdAt": "2026-09-10T11:00:00.000Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-202609-003",
+      "jobOrderId": "JOB-202609-002",
+      "quotationId": "QT-202609-002",
+      "customerId": "CUS-002",
+      "vehicleId": "VEH-003",
+      "date": "2026-09-12T14:05:41.368Z",
+      "dueDate": "2026-09-13T14:05:41.368Z",
+      "grandTotal": 3210,
+      "paidAmount": 3210,
+      "status": "ชำระแล้ว",
+      "createdAt": "2026-09-12T14:05:41.368Z"
+    },
+    {
+      "id": "INV-202609-001",
+      "jobOrderId": "JOB-202609-001",
+      "quotationId": "QT-202609-001",
+      "customerId": "CUS-001",
+      "vehicleId": "VEH-001",
+      "date": "2026-09-11T15:00:00.000Z",
+      "dueDate": "2026-09-12T17:00:00.000Z",
+      "grandTotal": 7393.7,
+      "paidAmount": 0,
+      "status": "รอชำระเงิน",
+      "notes": "ออกใบแจ้งหนี้เพื่อส่งให้ลูกค้าชำระเงินตอนรับรถ",
+      "createdAt": "2026-09-11T15:00:00.000Z"
+    },
+    {
+      "id": "INV-202609-004",
+      "jobOrderId": "JOB-202609-004",
+      "quotationId": "QT-202609-004",
+      "customerId": "CUS-004",
+      "vehicleId": "VEH-005",
+      "date": "2026-09-11T16:00:00.000Z",
+      "dueDate": "2026-09-11T16:00:00.000Z",
+      "grandTotal": 1284,
+      "paidAmount": 1284,
+      "status": "ชำระแล้ว",
+      "notes": "ชำระเงินเรียบร้อยด้วย QR Payment",
+      "createdAt": "2026-09-11T16:00:00.000Z"
+    }
+  ],
+  "receipts": [
+    {
+      "invoiceId": "INV-202609-003",
+      "jobOrderId": "JOB-202609-002",
+      "customerId": "CUS-002",
+      "vehicleId": "VEH-003",
+      "date": "2026-09-12T14:08:45.788Z",
+      "amount": 3210,
+      "paymentMethod": "เงินสด",
+      "paymentReference": "TXN-122935",
+      "id": "REC-202609-002",
+      "createdAt": "2026-09-12T14:08:45.788Z"
+    },
+    {
+      "id": "REC-202609-001",
+      "invoiceId": "INV-202609-004",
+      "jobOrderId": "JOB-202609-004",
+      "customerId": "CUS-004",
+      "vehicleId": "VEH-005",
+      "date": "2026-09-11T16:30:00.000Z",
+      "amount": 1284,
+      "paymentMethod": "QR Payment",
+      "paymentReference": "KBANK-QR-891048123",
+      "notes": "ชำระครบถ้วนผ่านระบบพร้อมเพย์ ออกใบเสร็จรับเงินเรียบร้อย",
+      "createdAt": "2026-09-11T16:30:00.000Z"
+    },
+    {
+      "id": "REC-202608-088",
+      "jobOrderId": "JOB-202608-040",
+      "customerId": "CUS-001",
+      "vehicleId": "VEH-002",
+      "date": "2026-08-28T14:15:00.000Z",
+      "amount": 4500,
+      "paymentMethod": "โอนเงิน",
+      "paymentReference": "SCB-TRANSFER-104921",
+      "notes": "เช็กระยะ 20,000 กม. Honda City Hatchback",
+      "createdAt": "2026-08-28T14:15:00.000Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "EXP-001",
+      "date": "2026-09-01T10:00:00.000Z",
+      "category": "ค่าเช่าสถานที่",
+      "title": "ค่าเช่าพื้นที่อู่ ประจำเดือนกันยายน 2569",
+      "amount": 35000,
+      "paymentMethod": "โอนเงิน",
+      "recipient": "บจก. กาญจนา พร็อพเพอร์ตี้",
+      "notes": "โอนผ่านบัญชีกสิกรไทย มีใบเสร็จแนบ",
+      "createdAt": "2026-09-01T10:00:00.000Z"
+    },
+    {
+      "id": "EXP-002",
+      "date": "2026-09-03T11:30:00.000Z",
+      "category": "ค่าน้ำค่าไฟ",
+      "title": "ค่าไฟฟ้าอู่ซ่อม ประจำรอบบิลเดือนสิงหาคม",
+      "amount": 8450,
+      "paymentMethod": "โอนเงิน",
+      "recipient": "การไฟฟ้านครหลวง",
+      "notes": "ตัดจ่ายผ่านระบบออนไลน์",
+      "createdAt": "2026-09-03T11:30:00.000Z"
+    },
+    {
+      "id": "EXP-003",
+      "date": "2026-09-05T14:00:00.000Z",
+      "category": "สั่งซื้อเครื่องมือ",
+      "title": "ซื้อเครื่องสแกน OBD2 Launch X431 Pro เพิ่ม 1 ชุด",
+      "amount": 14900,
+      "paymentMethod": "โอนเงิน",
+      "recipient": "บจก. ออโต้ ทูลส์ ไทยแลนด์",
+      "notes": "รับประกัน 2 ปี อัปเดตซอฟต์แวร์ฟรี",
+      "createdAt": "2026-09-05T14:00:00.000Z"
+    },
+    {
+      "id": "EXP-004",
+      "date": "2026-09-07T16:20:00.000Z",
+      "category": "ค่าอะไหล่รับเข้า",
+      "title": "สั่งซื้อน้ำมันเครื่อง Castrol EDGE และไส้กรองเข้าสต็อก",
+      "amount": 25840,
+      "paymentMethod": "โอนเงิน",
+      "recipient": "บจก. ซีพีซี ลูบริแคนท์ส",
+      "notes": "PO-202609-01",
+      "createdAt": "2026-09-07T16:20:00.000Z"
+    },
+    {
+      "id": "EXP-005",
+      "date": "2026-09-10T12:00:00.000Z",
+      "category": "อื่นๆ",
+      "title": "ค่าน้ำยาทำความสะอาดพื้นโรงซ่อมและถุงมือช่าง",
+      "amount": 1250,
+      "paymentMethod": "เงินสด",
+      "recipient": "ร้านวัสดุฮาร์ดแวร์ บางแค",
+      "notes": "จ่ายเงินสด เบิกเงินสดย่อย",
+      "createdAt": "2026-09-10T12:00:00.000Z"
+    }
+  ],
+  "lastUpdated": "2026-09-12T14:15:53.545Z"
+}

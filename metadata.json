@@ -1,0 +1,6 @@
+{
+  "name": "ระบบบริหารจัดการอู่ซ่อมรถยนต์ (Auto Garage Management)",
+  "description": "ระบบบริหารจัดการอู่ซ่อมรถยนต์ครบวงจร จัดการลูกค้า ยานพาหนะ ใบรับรถซ่อม ประเมินราคา สต็อกอะไหล่ การเงิน เอกสารพิมพ์ภาษาไทย และเชื่อมต่อซิงค์ข้อมูลลง Google Sheets",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
